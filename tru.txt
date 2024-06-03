@@ -4,6 +4,11 @@ REBASE---changes of both r in sync i.e current commit of main will also reflect 
 GIT++++++++++++++++++++++++++++++++++++++
 cmd
 
+=======
+GIT++++++++++++++++++++++++++++++++++++++
+cmd
+
+>>>>>>> 635bfc9e1ca21a5173d24e4f20556f2b149a1492
 C:\Users\Admin>cd C:\Users\Admin\Documents\practisse
 
 C:\Users\Admin\Documents\practisse>git init
@@ -88,6 +93,7 @@ remote: Total 6 (delta 0), reused 6 (delta 0), pack-reused 0
 Receiving objects: 100% (6/6), done.
 
 
+<<<<<<< HEAD
 =======GITHUB BRANCH*ING=============
 C:\Users\Admin\Documents\practisse\dev2\Project>git checkout -b feat-1
 Switched to a new branch 'feat-1'
@@ -142,6 +148,8 @@ To github.com:nj-007/Project.git
  * [new branch]      feat-1 -> feat-1
 
 
+=======
+>>>>>>> 635bfc9e1ca21a5173d24e4f20556f2b149a1492
 ===================Git terminal=====================
 
 PS C:\Users\Admin\Documents\hello> git init
@@ -312,4 +320,8 @@ Auto-merging B.java
 CONFLICT (content): Merge conflict in B.java
 Automatic merge failed; fix conflicts and then commit the result.
 PS C:\Users\Admin\Documents\hello> ^C
+<<<<<<< HEAD
 PS C:\Users\Admin\Documents\hello>
+=======
+PS C:\Users\Admin\Documents\hello>
+>>>>>>> 635bfc9e1ca21a5173d24e4f20556f2b149a1492
