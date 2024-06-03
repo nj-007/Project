@@ -1,8 +1,312 @@
+GIT++++++++++++++++++++++++++++++++++++++
+cmd
 
-fdefdf
-fgbhhipr
-rgolkrg
-gjriogjoped
-hjh
-jhk
-sfghjk
+C:\Users\Admin>cd C:\Users\Admin\Documents\practisse
+
+C:\Users\Admin\Documents\practisse>git init
+Initialized empty Git repository in C:/Users/Admin/Documents/practisse/.git/
+
+
+C:\Users\Admin\Documents\practisse>mkdir dev1
+
+C:\Users\Admin\Documents\practisse>cd dev1
+C:\Users\Admin\Documents\practisse>
+C:\Users\Admin\Documents\practisse\dev1>git status
+On branch master
+nothing to commit, working tree clean
+
+MY BRANCH NAME IS MASTER so MAIN wont work%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+C:\Users\Admin\Documents\practisse\dev1>git push -u origin master
+info: please complete authentication in your browser...
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 220 bytes | 1024 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/nj-007/Project.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+=======================
+
+
+C:\Users\Admin\Documents\practisse\dev1>mkdir dev2
+
+C:\Users\Admin\Documents\practisse\dev1>cd dev2
+
+C:\Users\Admin\Documents\practisse\dev1\dev2>cd ..
+
+C:\Users\Admin\Documents\practisse\dev1>
+C:\Users\Admin\Documents\practisse\dev1>cd ..
+
+C:\Users\Admin\Documents\practisse>cd ..
+
+C:\Users\Admin\Documents>cd practisse
+
+C:\Users\Admin\Documents\practisse>mkdir dev2
+
+C:\Users\Admin\Documents\practisse>cd dev2
+
+C:\Users\Admin\Documents\practisse\dev2>git clone git@github.com:nj-007/Project.git      /*Put HHTTP ,SSH didn't work==
+Cloning into 'Project'...
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+C:\Users\Admin\Documents\practisse\dev2>git clone https://github.com/nj-007/Project.git
+Cloning into 'Project'...
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 6 (delta 0), reused 6 (delta 0), pack-reused 0
+Receiving objects: 100% (6/6), done.
+
+
+
+
+C:\Users\Admin\Documents\practisse\dev2>type C:\Users\Admin\.ssh\id_ed25519.pub
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFb+2IpsSdl8P1pTYxMTt5QQSn5doeHEe9LqqVqB9lSz jha.navi007@gmail.com ---PASTE IN GITHUB NEW SSH KEY
+
+C:\Users\Admin\Documents\practisse\dev2>
+
+C:\Users\Admin\Documents\practisse\dev2>
+
+C:\Users\Admin\Documents\practisse\dev2>clone git@github.com:nj-007/Project.git
+'clone' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Admin\Documents\practisse\dev2>git clone git@github.com:nj-007/Project.git
+Cloning into 'Project'...
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 6 (delta 0), reused 6 (delta 0), pack-reused 0
+Receiving objects: 100% (6/6), done.
+
+
+=======GITHUB BRANCH*ING=============
+C:\Users\Admin\Documents\practisse\dev2\Project>git checkout -b feat-1
+Switched to a new branch 'feat-1'
+
+C:\Users\Admin\Documents\practisse\dev2\Project>git status
+On branch feat-1
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   tru2.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\Admin\Documents\practisse\dev2\Project>git -v
+git version 2.45.1.windows.1
+
+C:\Users\Admin\Documents\practisse\dev2\Project>git -b
+unknown option: -b
+usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [--config-env=<name>=<envvar>] <command> [<args>]
+
+C:\Users\Admin\Documents\practisse\dev2\Project>git status
+On branch feat-1
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   tru2.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\Admin\Documents\practisse\dev2\Project>git add .
+
+C:\Users\Admin\Documents\practisse\dev2\Project>git commit -m "feat-1"
+[feat-1 3444084] feat-1
+ 1 file changed, 6 insertions(+)
+
+C:\Users\Admin\Documents\practisse\dev2\Project>git push origin feat-1
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 308 bytes | 38.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'feat-1' on GitHub by visiting:
+remote:      https://github.com/nj-007/Project/pull/new/feat-1
+remote:
+To github.com:nj-007/Project.git
+ * [new branch]      feat-1 -> feat-1
+
+
+===================Git terminal=====================
+
+PS C:\Users\Admin\Documents\hello> git init
+Reinitialized existing Git repository in C:/Users/Admin/Documents/hello/.git/
+PS C:\Users\Admin\Documents\hello> git log
+fatal: your current branch 'master' does not have any commits yet
+PS C:\Users\Admin\Documents\hello> git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   src/main/java/com/example/hello/HelloApplication.java
+        new file:   src/main/resources/application.properties
+        new file:   src/test/java/com/example/hello/HelloApplicationTests.java
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    src/main/java/com/example/hello/HelloApplication.java
+        deleted:    src/main/resources/application.properties
+        deleted:    src/test/java/com/example/hello/HelloApplicationTests.java
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        A.java
+        B.java
+
+PS C:\Users\Admin\Documents\hello> git rm --cached src/main/java/com/example/hello/HelloApplication.java
+rm 'src/main/java/com/example/hello/HelloApplication.java'
+PS C:\Users\Admin\Documents\hello> git rm --cached src/main/resources/application.properties src/test/java/com/example/hello/HelloApplicationTests.java
+rm 'src/main/resources/application.properties'
+rm 'src/test/java/com/example/hello/HelloApplicationTests.java'
+PS C:\Users\Admin\Documents\hello> git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        A.java
+        B.java
+
+nothing added to commit but untracked files present (use "git add" to track)
+PS C:\Users\Admin\Documents\hello> git add A.java B.java
+PS C:\Users\Admin\Documents\hello> git commit -m "defct--started Git"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Admin@DESKTOP-EH9JEBA.(none)')
+PS C:\Users\Admin\Documents\hello> git config --global user.email "jha.navi007@gmail.com"
+PS C:\Users\Admin\Documents\hello> git config --global user.name "Navneet"
+PS C:\Users\Admin\Documents\hello> git commit -m "defct--started Git"
+[master (root-commit) e96a386] defct--started Git
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 A.java
+ create mode 100644 B.java
+PS C:\Users\Admin\Documents\hello> git diff
+PS C:\Users\Admin\Documents\hello> git status
+On branch master
+nothing to commit, working tree clean
+PS C:\Users\Admin\Documents\hello> git diff
+diff --git a/B.java b/B.java
+index e69de29..2af9368 100644
+--- a/B.java
++++ b/B.java
+@@ -0,0 +1,8 @@
++public class B {
++    private String name;
++
++    public void Something()
++    {
++        System.out.println("Bug fixeedd");
++    }
++}
+PS C:\Users\Admin\Documents\hello> git add B.java
+PS C:\Users\Admin\Documents\hello> git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   B.java
+
+PS C:\Users\Admin\Documents\hello> git commit -m
+error: switch `m' requires a value
+PS C:\Users\Admin\Documents\hello> git commit - m "fixed bug"
+error: pathspec '-' did not match any file(s) known to git
+error: pathspec 'm' did not match any file(s) known to git
+error: pathspec 'fixed bug' did not match any file(s) known to git
+PS C:\Users\Admin\Documents\hello> git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   B.java
+
+PS C:\Users\Admin\Documents\hello> git commit -m "Fixed bug"
+[master d28aa15] Fixed bug
+ 1 file changed, 8 insertions(+)
+PS C:\Users\Admin\Documents\hello> git log
+commit d28aa158f2e64395a3ec5621617a5c736b90f91a (HEAD -> master)
+Author: Navneet <jha.navi007@gmail.com>
+Date:   Sun May 26 21:59:54 2024 +0530
+
+    Fixed bug
+
+commit e96a38679da8b844f95bec0812aaa212c0aedcc1
+Author: Navneet <jha.navi007@gmail.com>
+Date:   Sun May 26 17:04:30 2024 +0530
+
+    defct--started Git
+PS C:\Users\Admin\Documents\hello> git show e96a38679da8b844f95bec0812aaa212c0aedcc1
+commit e96a38679da8b844f95bec0812aaa212c0aedcc1
+Author: Navneet <jha.navi007@gmail.com>
+Date:   Sun May 26 17:04:30 2024 +0530
+
+    defct--started Git
+
+diff --git a/A.java b/A.java
+new file mode 100644
+index 0000000..e69de29
+diff --git a/B.java b/B.java
+new file mode 100644
+index 0000000..e69de29
+PS C:\Users\Admin\Documents\hello> git show ^C
+PS C:\Users\Admin\Documents\hello> git show d28aa158f2e64395a3ec5621617a5c736b90f91a
+commit d28aa158f2e64395a3ec5621617a5c736b90f91a (HEAD -> master)
+commit d28aa158f2e64395a3ec5621617a5c736b90f91a (HEAD -> master)
+Author: Navneet <jha.navi007@gmail.com>
+Date:   Sun May 26 21:59:54 2024 +0530
+
+    Fixed bug
+
+diff --git a/B.java b/B.java
+index e69de29..2af9368 100644
+--- a/B.java
++++ b/B.java
+@@ -0,0 +1,8 @@
++public class B {
++    private String name;
++
++    public void Something()
++    {
++        System.out.println("Bug fixeedd");
++    }
++}
+(END)
+
+
+
+===============================
+if we dont heckout master branch before merging then it wont work-----
+
+PS C:\Users\Admin\Documents\hello> git merge feat-1
+Already up to date.
+PS C:\Users\Admin\Documents\hello> git checkout master
+Switched to branch 'master'
+PS C:\Users\Admin\Documents\hello> git merge feat-1
+Auto-merging B.java
+CONFLICT (content): Merge conflict in B.java
+Automatic merge failed; fix conflicts and then commit the result.
+PS C:\Users\Admin\Documents\hello> ^C
+PS C:\Users\Admin\Documents\hello>
