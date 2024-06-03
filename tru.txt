@@ -1,3 +1,6 @@
+In GIT BRANCH ---changes of branch moves to main but not vice versa but
+REBASE---changes of both r in sync i.e current commit of main will also reflect in feature anch
+
 GIT++++++++++++++++++++++++++++++++++++++
 cmd
 
