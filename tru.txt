@@ -93,8 +93,13 @@ remote: Total 6 (delta 0), reused 6 (delta 0), pack-reused 0
 Receiving objects: 100% (6/6), done.
 
 
-<<<<<<< HEAD
-=======GITHUB BRANCH*ING=============
+
+
+
+
+===============================================GITHUB BRANCH*ING=============
+
+
 C:\Users\Admin\Documents\practisse\dev2\Project>git checkout -b feat-1
 Switched to a new branch 'feat-1'
 
@@ -148,7 +153,16 @@ To github.com:nj-007/Project.git
  * [new branch]      feat-1 -> feat-1
 
 
-=======
+
+
+
+C:\Users\Admin\Documents\practisse\dev1>git push feat-1:feat-1----------------Changes of feat-1 of local will be pushed to remote feat-1
+=======================================================================================================
+
+
+
+
+
 >>>>>>> 635bfc9e1ca21a5173d24e4f20556f2b149a1492
 ===================Git terminal=====================
 
